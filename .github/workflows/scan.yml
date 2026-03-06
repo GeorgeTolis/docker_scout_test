@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'ghcr.io/tyropitoulios/docker_scout_test:latest'
+          default: 'ghcr.io/GeorgeTolis/docker_scout_test:latest'
 
 # env:
 #   REGISTRY: ghcr.io
