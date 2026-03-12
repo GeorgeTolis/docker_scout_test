@@ -1,0 +1,75 @@
+[2025-04-26 14:49:22] Command add dir1 -> dir2
+[2025-04-26 14:49:22] Added directory: dir1 -> dir2
+[2025-04-26 14:49:22] Monitoring started for dir1
+[2025-04-26 14:49:40] Command add dir3 -> dir4
+[2025-04-26 14:49:40] Added directory: dir3 -> dir4
+[2025-04-26 14:49:40] Monitoring started for dir3
+[2025-04-26 14:50:47] Command cancel dir5
+[2025-04-26 14:50:47] Directory not monitored: dir5
+[2025-04-26 14:51:06] Command add dir5 -> dir6
+[2025-04-26 14:51:06] Added directory: dir5 -> dir6
+[2025-04-26 14:51:06] Monitoring started for dir5
+[2025-04-26 14:51:31] Command status dir5
+[2025-04-26 14:51:31] Status requested for dir5
+Directory: dir5
+Target: dir6
+Last Sync: 2025-04-26 14:51:06
+Errors: 0
+Status: Active
+[2025-04-26 14:51:45] Command status dir3
+[2025-04-26 14:51:45] Status requested for dir3
+Directory: dir3
+Target: dir4
+Last Sync: 2025-04-26 14:49:40
+Errors: 0
+Status: Active
+[2025-04-26 14:51:49] Command status dir3
+[2025-04-26 14:51:49] Status requested for dir3
+Directory: dir3
+Target: dir4
+Last Sync: 2025-04-26 14:49:40
+Errors: 0
+Status: Active
+[2025-04-26 14:51:55] Command status dir4
+[2025-04-26 14:51:55] Directory not monitored: dir4
+[2025-04-26 14:52:03] Command cancel dir3
+[2025-04-26 14:52:03] Monitoring stopped for dir3
+[2025-04-26 14:52:06] Command cancel dir3
+[2025-04-26 14:52:06] Directory not monitored: dir3
+[2025-04-26 14:53:14] Command sync dir1
+[2025-04-26 14:53:14] Syncing directory: dir1 -> dir2
+[2025-04-26 14:53:14]  Sync completed dir1 -> dir2
+[2025-04-26 14:53:29] Command sync dir5
+[2025-04-26 14:53:29] Syncing directory: dir5 -> dir6
+[2025-04-26 14:53:29]  Sync completed dir5 -> dir6
+[2025-04-26 14:53:36] Command add dir3 -> dir4
+[2025-04-26 14:53:36] Added directory: dir3 -> dir4
+[2025-04-26 14:53:36] Monitoring started for dir3
+[2025-04-26 14:53:41] Command cancel dir1
+[2025-04-26 14:53:41] Monitoring stopped for dir1
+[2025-04-26 14:54:28] Command shutdown
+[2025-04-26 14:54:28] Shutting down manager...
+[2025-04-26 14:54:28] Processing remaining queued tasks.
+[2025-04-30 18:40:34] Command add dir1 -> dir2
+[2025-04-30 18:40:34] Added directory: dir1 -> dir2
+[2025-04-30 18:40:34] Monitoring started for dir1
+[2025-04-30 18:40:40] Command add dir3 -> dir4
+[2025-04-30 18:40:40] Added directory: dir3 -> dir4
+[2025-04-30 18:40:40] Monitoring started for dir3
+[2025-04-30 18:40:48] Command sync dir1
+[2025-04-30 18:40:48] Syncing directory: dir1 -> dir2
+[2025-04-30 18:40:48]  Sync completed dir1 -> dir2
+[2025-04-30 18:40:52] Command status dir1
+[2025-04-30 18:40:52] Status requested for dir1
+Directory: dir1
+Target: dir2
+Last Sync: 2025-04-30 18:40:48
+Errors: 2
+Status: Active
+[2025-04-30 18:40:55] Command cancel dir1
+[2025-04-30 18:40:55] Monitoring stopped for dir1
+[2025-04-30 18:41:23] Command shutdown
+[2025-04-30 18:41:23] Shutting down manager...
+[2025-04-30 18:41:23] Waiting for all active workers to finish.
+[2025-04-30 18:41:23] Processing remaining queued tasks.
+[2025-04-30 18:41:23] Manager shutdown complete.

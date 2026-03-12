@@ -1,0 +1,10 @@
+[2025-04-30 18:40:34] Added directory: dir1 -> dir2
+[2025-04-30 18:40:34] Monitoring started for dir1
+[2025-04-30 18:40:34] [dir1] [dir2] [9025] [FULL] [PARTIAL] [9 files copied, 1 skipped]
+[2025-04-30 18:40:40] Added directory: dir3 -> dir4
+[2025-04-30 18:40:40] Monitoring started for dir3
+[2025-04-30 18:40:40] [dir3] [dir4] [9026] [FULL] [SUCCESS] [5 files copied, 0 skipped]
+[2025-04-30 18:40:48] Syncing directory: dir1 -> dir2
+[2025-04-30 18:40:48]  Sync completed dir1 -> dir2
+[2025-04-30 18:40:48] [dir1] [dir2] [9027] [FULL] [PARTIAL] [9 files copied, 1 skipped]
+[2025-04-30 18:40:55] Monitoring stopped for dir1
